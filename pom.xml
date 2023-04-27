@@ -16,13 +16,14 @@
         <log4j-version>2.20.0</log4j-version>
         <jackson-version>2.12.1</jackson-version>
         <junit-version>5.9.2</junit-version>
+        <battleship-commons-version>1.0</battleship-commons-version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.battleship</groupId>
             <artifactId>commons</artifactId>
-            <version>1.0</version>
+            <version>${battleship-commons-version}</version>
         </dependency>
         <dependency>
             <groupId>com.formdev</groupId>
